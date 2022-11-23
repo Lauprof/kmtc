@@ -1,16 +1,16 @@
 *{
 	box-sizing: border-box;
 top:0px;
-left:0px;
+left:3px;
 margin:0;
 
 
 }
 h1{
 text-align: center;
-text-shadow: 1px 1px blueviolet;
+text-shadow: 1px 1px 2px blueviolet;
 animation-duration:4s ;
-text-shadow:1px 1.2px 2px white;
+
 animation-name: colorchange;
 animation-iteration-count: infinite;
 
@@ -18,9 +18,9 @@ animation-iteration-count: infinite;
 }
 
 @frames colorchange{
-	0%{text-shadow:2px 2px 4px green;}
-	50%{text-shadow: 1px 1px red;}
-	100%{text-shadow:2px 2px orange;}
+	from{text-shadow:2px 2px 4px green;}
+	
+	to{text-shadow:2px 2px 4px orange;}
 }
 #nav  {
 
@@ -36,7 +36,7 @@ font-size: 1.3em;
 body{
 
 background-color: #54ccdd;
-padding:0px;
+padding:3px;
 top:0px;
 margin:0px;
 
@@ -95,7 +95,7 @@ ol  {
     padding: 4px;
   }
   #nav{font-size: 14px;}
-h1{font-size:1.2em;}
+h1{font-size:15px;}
 
 }
 
